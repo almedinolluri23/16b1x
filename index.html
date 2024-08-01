@@ -1,31 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="logo.css">
-    <title>Logo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="index.css">
+  <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="contanier">
-        <h2>Logo</h2>
-        <form action="#" method="post">
-            <div class="form-grup">
-                <label for="username">username</label>
-                <input type="username" id="username" name="username">
-            </div>
-            <label for="password">password</label>
-            <input type="password" id="password" name="password" required>
-            <div>
-                <button type="submit"> Logo</button>
+  <nav>
+    
+  <!----home section start---->
+    <ul class="sidebar">
+      <section class="home" id="home">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+            viewBox="0 10 950 500"
+            width="40px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+          </svg></a></li>
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#serviec">Serviec</a></li>
+      <li><a href="#ontact US">Contact US</a></li>
+    </section>
+    </ul>
 
-            </div>
-        </form>
+    <ul>
+  
+      <li><a href="#">Almedin</a></li>
+      <li onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40px style="--color:#f10404"
+            viewBox="0  10 950 500"
+            width="40px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+          </svg></a></li>
+    </ul>
+  </nav>
+  <script>
+  </script>
+
+  <div class="content">
+    <h4>Hello </h4>
+    <h1><span>My Name</span>Almedin Olluri</h1>
+    <h3>And a safe website for people</h3>
+    <button type="button"> Contact me</button>
+  </div>
+
+  <!----About section start---->
+  <section class="about" id="about">
+    <div class="main">
+      <img src="images/profile.jpg.jpg">
+      <div class="about-text">
+        <h2>About ME</h2>
+        <h5>Developer <span>& Desingner</span></h5>
+        <p>I am a front-end web developer. I can provide clean code and pixel
+          perfect design. I also make the website more & more interactive with web
+          animations. I can provide clean code and pixel perfect design.</p>
+        <button type="button"> submit</button>
+      </div>
+    </div>
+  </section>
+
+  <!---- Service section start-------->
+  <div class="service" id="service">
+    <div class="title">
+      <h2>Our Services</h2>
     </div>
 
 
- 
+
+    <div class="flex-box" style="display: flex;">
+      <div class="card">
+        <i class="fa-solid fa-bars"></i>
+        <h5>Web Development</h5>
+        <div class="pra">
+          <p>Every website should be built with two primary goals: Firstly, it needs
+            to work across all devices. Secondly, it needs to be fast as possible. </p>
+          <p style="text-align: center;">
+            <a class="button" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa-regular fa-user"></i>
+        <h5>Web Development</h5>
+        <div class="pra">
+          <p>Every website should be built with two primary goals: Firstly, it needs
+            to work across all devices. Secondly, it needs to be fast as possible. </p>
+          <p style="text-align: center;">
+            <a class="button" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fa-regular fa-bell"></i>
+        <h5>Web Development</h5>
+        <div class="pra">
+          <p>Every website should be built with two primary goals: Firstly, it needs
+            to work across all devices. Secondly, it needs to be fast as possible. </p>
+          <p style="text-align: center;">
+            <a class="button" href="#">Read More</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</ul>
+
+<!-----Contact US start ----->
+<div class="contact-US" id="Contact US">
+  <p>Let Me Get You A <span>Beautiful Website</span></p>
+  <a class="button-tow" href="#">Hire Me</a>
+</div>
+
+
+<div class="wrapper">
+  <a href="https://www.facebook.com/almedinoluri" target="_blank" >
+      <div class="icon" style="--color:#3B5999">
+          <div class="tooltip">Elmedinoll</div>
+          <span><ion-icon name="logo-facebook"></ion-icon></span>
+      </div>
+   </a>
+  <a href="https://www.instagram.com/almedinoluri" target="_blank">
+      <div class="icon" style="--color:#fd1d1d">
+          <div class="tooltip">@almedinolluri</div>
+          <span><ion-icon name="logo-instagram"></ion-icon></span>
+      </div>
+  </a>
+  <a href="https://discordapp.com/users/almedinoll" target="_blank">
+      <div class="icon" style="--color:#0903c3">
+          <div class="tooltip">Almedinoll</div>
+          <span><ion-icon name="logo-discord"></ion-icon></span>
+      </div>
+  </a>
+  <a href="https://github.com/almedinolluri23" target="_blank">
+      <div class="icon" style="--color:#101010">
+          <div class="tooltip">almedinolluri23</div>
+          <span><ion-icon name="logo-github"></ion-icon></span>
+      </div>
+  </a>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./index.js"></script>
 </body>
 </html>
